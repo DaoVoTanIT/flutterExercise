@@ -10,7 +10,10 @@ class LoginScreen extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello'),
+          child: Text(
+            'Hello',
+            style: TextStyle(fontSize: 20),
+          ),
         ),
       ),
     );
